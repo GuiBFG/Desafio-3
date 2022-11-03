@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio-3</title>
+
+    <link rel="shortcut icon" href="./download (2).png" type="icon">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+
+        <section>
+
+            <div class="container">
+
+                <div class="comeco">
+
+                    <img src="./image 1.png" alt="avatar">
+
+                    <div>
+                        <p class="subTitulo">Nick:</p>
+                        <input type="text" id="nick">
+                    </div>
+
+                    <div>
+                        <p class="subTitulo2">Intervalo:</p>
+
+                        <select name="modo" id="modo">
+                            <option value="1">Opção 1: 1 a 10</option>
+                            <option value="2">Opção 2: 1 a 100</option>
+                            <option value="3">Opção 3: 1 a 200</option>
+                        </select>
+                    </div>
+
+                    <br>
+
+                    <button id="start">Começar</button>
+                </div>
+
+                <div class="meio">
+                    <div class="titulo">
+                        <h1>OJogo</h1>
+                    </div>
+
+                    <div class="borda"></div>
+                </div>
+
+                <div class="fim">
+
+                    <p class="texto">Olá <strong id="username">Fulano</strong>, vamos jogar!<br> De acordo com a opçao de
+                        intervalo que<br> você escolheu, descubra o número.</p>
+
+                    <div class="numero">
+                        <p class="subTitulo3">Digite um número:</p>
+                        <input type="number" id="valor">
+                    </div>
+
+                    <button id="play">Jogar</button>
+
+                    <div class="resultados">
+                        <p class="texto2" id="oValorE"><strong></strong></p>
+
+                        <p class="texto3" id="attemps">Você ainda tem 3 tentativas!</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
