@@ -6,6 +6,7 @@
 
 body {
     background-color: #F2890D;
+    font-family: 'Press Start 2P';
 }
 
 main {
@@ -47,7 +48,6 @@ option {
 }
 
 button {
-    font-family: 'Press Start 2P';
     line-height: 15px;
     color: white;
     top: 42px;
@@ -80,12 +80,10 @@ button {
 }
 
 .subTitulo {
-    font-family: 'Press Start 2P';
     font-size: 15px;
 }
 
 .subTitulo2 {
-    font-family: 'Press Start 2P';
     font-size: 15px;
     margin-top: 60px;
 }
@@ -127,7 +125,6 @@ button {
 }
 
 .subTitulo3 {
-    font-family: 'Press Start 2P';
     font-size: 13px;
     margin-top: 50px;
 }
@@ -160,7 +157,6 @@ button {
     text-transform: uppercase;
     font-size: 15px;
     margin-top: 20px;
-
 }
 
 #start:hover {
@@ -185,7 +181,6 @@ button {
 /* Responsividade */
 
 @media screen and (max-width: 428px) {
-
 
     body {
         max-width: 428px;
